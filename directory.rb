@@ -1,3 +1,5 @@
+student_count = 11
+
 # first let's print the names of the students under a heading
 puts "The students of Villains Academy"
 puts "-------------"
@@ -13,7 +15,4 @@ puts "The Joker"
 puts "Joffrey Baratheon"
 puts "Norman Bates"
 #then let's print the total number of students
-print "Overall we have "
-#without adding new lines, because we want this to look like a sentence
-print 11
-puts " great students"
+puts "Overall we have #{student_count} great students"
